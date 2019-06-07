@@ -18,8 +18,12 @@ proxy包下，类中有注释，有以下3种：
 - jdk动态代理
 - cglib动态代理
 #### 4.关于
-欢迎一起完善本项目，如果有任何疑问，请通过公众号或者添加作者微信交流。
+欢迎一起完善本项目(提issue或者加微信)，如果有任何疑问，请通过公众号或者添加作者微信交流。
+
 java4all:
 
+![Image text](https://github.com/lightClouds917/designMode/blob/master/src/main/resources/templates/java4all_black.jpg)
+
 IT云清：
+
 ![Image text](https://github.com/lightClouds917/designMode/blob/master/src/main/resources/templates/ITyunqing.jpg)

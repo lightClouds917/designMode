@@ -9,8 +9,9 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 /**
- * @author wangzhongxiang
- * @date 2019年06月06日 16:01:54
+ * 测试静态代理
+ * @author IT云清
+ * @date 2019年01月01日 11:11:11
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

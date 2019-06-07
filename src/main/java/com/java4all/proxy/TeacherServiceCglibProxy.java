@@ -38,7 +38,7 @@ public class TeacherServiceCglibProxy implements MethodInterceptor{
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy)
             throws Throwable {
         Object invoke = method.invoke(teacherService, objects);
-        if(null != null){
+        if(null != invoke){
             return invoke.toString() + "  增强后的结果";
         }
         return null;

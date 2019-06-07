@@ -12,4 +12,5 @@ public class TeacherService {
     String doSecond(){
         return "doSecond返回";
     }
+    String doThreee() {return "doThreee返回";}
 }

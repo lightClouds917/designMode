@@ -11,5 +11,5 @@ public interface Car {
     /**
      * 跑
      */
-    void run();
+    String run();
 }

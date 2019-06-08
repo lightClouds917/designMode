@@ -14,7 +14,8 @@ public class Benz implements Car{
      * 跑
      */
     @Override
-    public void run() {
+    public String run() {
         log.info("Benz run,百公里加速度4s");
+        return "Benz";
     }
 }

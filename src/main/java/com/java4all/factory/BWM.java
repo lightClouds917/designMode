@@ -14,7 +14,8 @@ public class BWM implements Car{
      * 跑
      */
     @Override
-    public void run() {
+    public String run() {
         log.info("BWM run,百公里加速度5s");
+        return "BWM";
     }
 }

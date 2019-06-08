@@ -14,7 +14,8 @@ public class Porsche implements Car{
      * 跑
      */
     @Override
-    public void run() {
+    public String run() {
         log.info("Porsche run,百公里加速度3s");
+        return "Porsche";
     }
 }

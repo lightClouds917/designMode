@@ -1,8 +1,8 @@
 package com.java4all.builder;
 
 /**
- * @author wangzhongxiang
- * @date 2019年06月09日 16:18:56
+ * @author IT云清
+ * @date 2019年01月01日 11:11:11
  */
 public class ChickenBurger extends Burger{
 

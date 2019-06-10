@@ -42,9 +42,9 @@ public class Java4all {
      * @param articleTitle 新文章标题
      */
     public void setArticleTitle(String articleTitle) {
-        this.articleTitle = articleTitle;
         log.info("java4all更新文章了，标题为：{}",articleTitle);
-        this.notifyAllReader();
+        this.articleTitle = articleTitle;
         log.info("更新文章后通知所有的读者");
+        this.notifyAllReader();
     }
 }

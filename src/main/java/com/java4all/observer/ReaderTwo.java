@@ -3,8 +3,9 @@ package com.java4all.observer;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author wangzhongxiang
- * @date 2019年06月10日 10:06:01
+ * 读者2
+ * @author IT云清
+ * @date 2019年01月01日 11:11:11
  */
 @Slf4j
 public class ReaderTwo extends ReaderOfJava4all{
@@ -19,10 +20,10 @@ public class ReaderTwo extends ReaderOfJava4all{
     }
 
     /**
-     * 更新
+     * 接收
      */
     @Override
-    public void update() {
+    public void receive() {
         log.info("ReaderTwo接收到了此次更新,接收文章为：{}",this.java4all.getArticleTitle());
     }
 }

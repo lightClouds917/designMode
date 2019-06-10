@@ -6,8 +6,9 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * java4all公众号
- * @author wangzhongxiang
- * @date 2019年06月10日 09:47:28
+ * 读者订阅了此公众号（可以理解为：观察者观察此主题）
+ * @author IT云清
+ * @date 2019年01月01日 11:11:11
  */
 @Slf4j
 public class Java4all {
@@ -27,7 +28,7 @@ public class Java4all {
      */
     private void notifyAllReader() {
         readers.stream().forEach(readerOfJava4all -> {
-            readerOfJava4all.update();
+            readerOfJava4all.receive();
         });
     }
 

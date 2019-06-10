@@ -14,6 +14,23 @@ public class Java4all {
 
     private List<ReaderOfJava4all> readers = new ArrayList<>();
 
+    /**
+     * 添加读者
+     * @param readerOfJava4all
+     */
+    public void attach(ReaderOfJava4all  readerOfJava4all){
+        readers.add(readerOfJava4all);
+    }
+
+    /**
+     * 通知所有读者
+     */
+    private void notifyAllReader() {
+        readers.stream().forEach(readerOfJava4all -> {
+            readerOfJava4all.update();
+        });
+    }
+
     private String articleTitle;
 
     public String getArticleTitle() {
@@ -29,14 +46,5 @@ public class Java4all {
         log.info("java4all更新文章了，标题为：{}",articleTitle);
         this.notifyAllReader();
         log.info("更新文章后通知所有的读者");
-    }
-
-    /**
-     * 通知所有读者
-     */
-    private void notifyAllReader() {
-        readers.stream().forEach(readerOfJava4all -> {
-            readerOfJava4all.update();
-        });
     }
 }

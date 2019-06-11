@@ -9,7 +9,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 
 /**
  * 测试迭代器
- * @author IT云清测试
+ * @author IT云清
  * @date 2019年01月01日 11:11:11
  */
 @RunWith(SpringRunner.class)

@@ -16,7 +16,7 @@ public class UserServiceImplJdkProxy{
 
 
     /**
-     * 需要增强某个方式，调用前直接增强
+     * 需要增强某个方法，调用前直接增强
      * 这里以增强doFirst方法为例，调用doFirst前，先实现增强逻辑，然后调用doFirst方法
      * 如果想给doSecond方法做其他增强，调用doSecond前，先实现增强逻辑，然后调用doSecond即可
      * @param args

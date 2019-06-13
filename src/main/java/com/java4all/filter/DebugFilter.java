@@ -7,7 +7,7 @@ import lombok.extern.slf4j.Slf4j;
  * @date 2019年01月01日 11:11:11
  */
 @Slf4j
-public class DebugFilterMy implements FilterMy {
+public class DebugFilter implements Filter {
 
     @Override
     public void execute(String request) {

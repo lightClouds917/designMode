@@ -8,7 +8,7 @@ import lombok.extern.slf4j.Slf4j;
  */
 
 @Slf4j
-public class AuthenticationFilterMy implements FilterMy{
+public class AuthenticationFilter implements Filter {
 
     @Override
     public void execute(String request) {

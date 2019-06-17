@@ -16,7 +16,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @SpringBootTest
 @WebAppConfiguration
 @Slf4j
-public class TestIterator {
+public class IteratorTest {
 
     @Test
     public void testIterator(){

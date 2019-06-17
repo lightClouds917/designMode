@@ -16,7 +16,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @SpringBootTest
 @WebAppConfiguration
 @Slf4j
-public class TestJava4all {
+public class Java4allTest {
 
     @Test
     public void testNotifyAllReader(){

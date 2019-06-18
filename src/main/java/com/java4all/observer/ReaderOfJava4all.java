@@ -1,8 +1,8 @@
 package com.java4all.observer;
 
 /**
- * 抽象观察者
  * java4all读者
+ * 角色：抽象观察者
  *
  * @author IT云清
  * @date 2019年01月01日 11:11:11

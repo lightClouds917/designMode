@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * java4all公众号
+ * 角色：被观察者
  * 读者订阅了此公众号（可以理解为：观察者观察此主题）
  * @author IT云清
  * @date 2019年01月01日 11:11:11
@@ -13,6 +14,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class Java4all {
 
+    /**java4all公众号的订阅者*/
     private List<ReaderOfJava4all> readers = new ArrayList<>();
 
     /**

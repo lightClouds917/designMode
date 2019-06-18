@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 读者2
+ * 角色：具体观察者；
  * @author IT云清
  * @date 2019年01月01日 11:11:11
  */

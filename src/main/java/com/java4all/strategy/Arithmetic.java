@@ -1,8 +1,8 @@
 package com.java4all.strategy;
 
 /**
- * @author wangzhongxiang
- * @date 2019年06月22日 17:07:07
+ * @author IT云清
+ * @date 2019年01月01日 11:11:11
  */
 public interface Arithmetic {
 

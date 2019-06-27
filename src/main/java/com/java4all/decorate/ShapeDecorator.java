@@ -2,10 +2,12 @@ package com.java4all.decorate;
 
 
 /**
+ * 实现了形状接口的抽象装饰类
+ *
  * @author wangzhongxiang
  * @date 2019年06月26日 20:19:52
  */
-public class ShapeDecorator implements Shape{
+public  abstract class ShapeDecorator implements Shape{
 
     protected Shape shape;
 

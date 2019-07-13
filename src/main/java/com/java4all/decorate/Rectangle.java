@@ -3,7 +3,7 @@ package com.java4all.decorate;
 import lombok.extern.slf4j.Slf4j;
 
 /** 长方形
- * @author wangzhongxiang
+ * @author IT云清
  * @date 2019年06月26日 20:14:47
  */
 @Slf4j

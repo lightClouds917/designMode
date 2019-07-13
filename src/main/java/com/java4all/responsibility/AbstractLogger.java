@@ -4,7 +4,7 @@ package com.java4all.responsibility;
  * 责任链模式
  *
  * 抽象日志记录对象
- * @author wangzhongxiang
+ * @author IT云清
  * @date 2019年07月06日 16:45:56
  */
 public abstract class AbstractLogger {

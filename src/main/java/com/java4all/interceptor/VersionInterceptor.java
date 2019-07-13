@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 /**
- * @author wangzhongxiang
+ * @author IT云清
  * @date 2019年06月22日 11:03:31
  */
 public class VersionInterceptor implements HandlerInterceptor{

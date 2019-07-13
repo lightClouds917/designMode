@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 
 /**
- * @author wangzhongxiang
+ * @author IT云清
  * @date 2019年07月03日 19:31:04
  */
 @RunWith(SpringRunner.class)

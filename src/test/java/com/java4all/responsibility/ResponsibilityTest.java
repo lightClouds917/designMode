@@ -4,7 +4,7 @@ import org.junit.Test;
 
 /**
  * 测试责任链模式
- * @author wangzhongxiang
+ * @author IT云清
  * @date 2019年07月06日 17:09:19
  */
 public class ResponsibilityTest {

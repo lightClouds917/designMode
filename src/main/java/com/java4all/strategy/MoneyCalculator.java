@@ -13,6 +13,6 @@ public class MoneyCalculator {
     }
 
     public Integer execute(Integer num1,Integer num2){
-        return arithmetic.doOperation(num1,num2);
+        return arithmetic.execute(num1,num2);
     }
 }

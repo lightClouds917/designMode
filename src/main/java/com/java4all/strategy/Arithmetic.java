@@ -7,5 +7,11 @@ package com.java4all.strategy;
  */
 public interface Arithmetic {
 
-    Integer doOperation(Integer num1,Integer num2);
+    /**
+     * 算法抽象执行
+     * @param num1
+     * @param num2
+     * @return
+     */
+    Integer execute(Integer num1,Integer num2);
 }

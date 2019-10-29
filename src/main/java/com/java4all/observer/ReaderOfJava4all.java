@@ -9,6 +9,7 @@ package com.java4all.observer;
  */
 public abstract class ReaderOfJava4all {
 
+    /**目标，抽象观察者持有观察的目标对象*/
     public Java4all java4all;
 
     /**

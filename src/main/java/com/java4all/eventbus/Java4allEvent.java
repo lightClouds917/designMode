@@ -7,11 +7,18 @@ package com.java4all.eventbus;
 public class Java4allEvent {
     private final String message;
 
-    public Java4allEvent(String message) {
+    private final Integer messageInt;
+
+    public Java4allEvent(String message, Integer messageInt) {
         this.message = message;
+        this.messageInt = messageInt;
     }
 
     public String getMessage() {
         return message;
+    }
+
+    public Integer getMessageInt() {
+        return messageInt;
     }
 }

@@ -3,6 +3,8 @@ package com.java4all.observer;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * java4all公众号
@@ -13,6 +15,8 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class Java4all {
+    private static final Logger LOGGER = LoggerFactory.getLogger(Java4all.class);
+
 
     /**java4all公众号的订阅者*/
     private List<ReaderOfJava4all> readers = new ArrayList<>();
@@ -45,9 +49,9 @@ public class Java4all {
      * @param articleTitle 新文章标题
      */
     public void setArticleTitle(String articleTitle) {
-        log.info("java4all更新文章了，标题为：{}",articleTitle);
+        LOGGER.info("java4all更新文章了，标题为：{}",articleTitle);
         this.articleTitle = articleTitle;
-        log.info("更新文章后通知所有的读者");
+        LOGGER.info("更新文章后通知所有的读者");
         this.notifyAllReader();
     }
 }

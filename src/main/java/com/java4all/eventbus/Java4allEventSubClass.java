@@ -2,6 +2,7 @@ package com.java4all.eventbus;
 
 /**
  * @author IT云清
+ * 如果Listener A监听Event A, 而Event A有一个子类Event B, 此时Listener A将同时接收Event A和B消息
  */
 public class Java4allEventSubClass extends Java4allEvent{
 

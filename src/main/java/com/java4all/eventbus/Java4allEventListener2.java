@@ -3,6 +3,7 @@ package com.java4all.eventbus;
 import com.google.common.eventbus.Subscribe;
 
 /**
+ * 消息接收类
  * @author IT云清
  */
 public class Java4allEventListener2 {
@@ -15,7 +16,4 @@ public class Java4allEventListener2 {
         System.out.println("Java4allEventListener2接收到了消息："+message);
     }
 
-    public String getMessage() {
-        return message;
-    }
 }

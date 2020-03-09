@@ -1,6 +1,7 @@
 package com.java4all.eventbus;
 
 /**
+ * 消息封装类
  * @author IT云清
  */
 public class Java4allEvent {

@@ -1,6 +1,7 @@
 package com.java4all.eventbus;
 
 /**
+ * https://www.cnblogs.com/peida/p/EventBus.html
  * 消息封装类
  * @author IT云清
  */
